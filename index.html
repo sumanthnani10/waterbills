@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta content="A new Flutter project." name="description">
+
+    <!-- iOS meta tags & icons -->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="waterbills" name="apple-mobile-web-app-title">
+    <link href="icons/Icon-192.png" rel="apple-touch-icon">
+
+    <!-- Favicon -->
+    <link href="favicon.png" rel="shortcut icon" type="image/png"/>
+
+    <title>waterbills</title>
+    <link href="manifest.json" rel="manifest">
+</head>
+<body>
+<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-firestore.js"></script>
+<!--  <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>-->
+
+<script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyCLk24cO46v6z1zqguV87ZEcJkCocWceIQ",
+        authDomain: "waterbills-3282e.firebaseapp.com",
+        databaseURL: "https://waterbills-3282e.firebaseio.com",
+        projectId: "waterbills-3282e",
+        storageBucket: "waterbills-3282e.appspot.com",
+        messagingSenderId: "124898267765",
+        appId: "1:124898267765:web:9eb95dc0bc618c59ee5e3c",
+        measurementId: "G-P6XVRC5BF6"
+      };
+      firebase.initializeApp(firebaseConfig);
+
+
+</script>
+<!-- This script installs service_worker.js to provide PWA functionality to
+     application. For more information, see:
+     https://developers.google.com/web/fundamentals/primers/service-workers -->
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2920810640');
+      });
+    }
+
+
+</script>
+<script src="main.dart.js" type="application/javascript"></script>
+.
+</body>
+</html>
