@@ -29278,7 +29278,7 @@ if(l==="1"){d=A.f(o.h(0,l+m[0]))+d;++h}else d=A.f(p.h(0,m[h]))+d}else d=A.f(p.h(
 else if(h===1)d=A.f(o.h(0,m[h]))+d
 d+="paise "}else d=""
 return i+"rupees "+d+"only"},
-aCC(a){var s,r,q,p,o=(a+"!.0").split("."),n=o[0]
+aCC(a){var s,r,q,p,o=(a+".00").split("."),n=o[0]
 n.toString
 s=J.a4T(n,"")
 r=s.length
@@ -103463,7 +103463,7 @@ g=a.cx
 l=A.aCm(null,A.a([new A.iP(d,e),new A.iP(A.a([new A.fD(new A.cb(4,4,4,4),A.aI(g.b,A.aX(null,B.bT,null,null,null,null,null,null,null,B.q,null,null,11,null,null,null,!0,null,null,null,null),null)),new A.fD(new A.cb(4,4,4,4),A.aI(g.e,A.aX(null,B.bT,null,null,null,null,null,null,null,B.q,null,null,11,null,null,null,!0,null,null,null,null),null)),new A.fD(new A.cb(4,4,4,4),A.aI(A.f(a.z),A.aX(null,B.bT,null,null,null,null,null,null,null,B.q,null,null,11,null,null,null,!0,null,null,null,null),B.eH)),new A.fD(new A.cb(4,4,4,4),A.aI(A.f(g.x),A.aX(null,B.bT,null,null,null,null,null,null,null,B.q,null,null,11,null,null,null,!0,null,null,null,null),B.eH)),new A.fD(new A.cb(4,4,4,4),A.aI(A.f(a.at),A.aX(null,B.bT,null,null,null,null,null,null,null,B.q,null,null,11,null,null,null,!0,null,null,null,null),B.eH))],c),null)],t.nk),l,B.aOt)
 g=new A.m2(B.bT,1,B.eT)
 g=A.Ah(new A.o5(g,g,B.bM,B.bM),null)
-g=A.dY(null,A.ij(A.a([A.aI("Amount In Words: ",A.aX(null,null,B.aOA,null,null,null,null,null,null,B.q,null,null,11,null,null,null,!0,null,null,null,null),null),new A.eL(null,4,null),A.aI(A.aXc(A.f(a.at)),A.aX(null,null,null,null,null,null,null,null,null,B.q,null,null,12,null,null,null,!0,null,null,null,null),null)],c),B.c5,B.aW,B.bg),null,g,null,B.R2,B.QP,null)
+g=A.dY(null,A.ij(A.a([A.aI("Amount In Words: ",A.aX(null,null,B.aOA,null,null,null,null,null,null,B.q,null,null,11,null,null,null,!0,null,null,null,null),null),new A.eL(null,4,null),A.aI(A.aXc(A.f(a.Q)),A.aX(null,null,null,null,null,null,null,null,null,B.q,null,null,12,null,null,null,!0,null,null,null,null),null)],c),B.c5,B.aW,B.bg),null,g,null,B.R2,B.QP,null)
 e=A.Ah(new A.o5(B.bM,new A.m2(o,1,B.eT),B.bM,B.bM),null)
 e=A.dY(null,A.pb(A.a([new A.dr(3,A.dY(B.aZ,A.aI("SUBTOTAL",A.aX(null,B.bb,null,null,null,null,null,null,null,B.q,null,null,10,null,null,null,!0,null,null,null,null),null),o,null,null,null,new A.cb(4,4,4,4),null)),new A.dr(2,A.dY(B.ly,A.aI(A.aCC(A.f(a.at)),A.aX(null,null,null,null,null,null,null,null,null,B.q,null,null,12,null,null,null,!0,null,null,null,null),null),null,null,null,null,new A.cb(4,4,4,4),null))],c),B.cQ,B.aW),null,e,null,null,null,null)
 d=A.Ah(new A.o5(B.bM,new A.m2(o,1,B.eT),B.bM,B.bM),null)
