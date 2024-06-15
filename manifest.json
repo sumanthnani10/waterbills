@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "name": "waterbills",
     "short_name": "waterbills",
     "start_url": ".",
@@ -33,27 +32,4 @@
             "purpose": "maskable"
         }
     ]
-=======
-  "name": "waterbills",
-  "short_name": "waterbills",
-  "start_url": ".",
-  "display": "minimal-ui",
-  "background_color": "#0175C2",
-  "theme_color": "#0175C2",
-  "description": "A new Flutter project.",
-  "orientation": "portrait-primary",
-  "prefer_related_applications": false,
-  "icons": [
-    {
-      "src": "icons/Icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/Icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
->>>>>>> b440bf075794fb249edb7657fd5be50f72700409
 }
