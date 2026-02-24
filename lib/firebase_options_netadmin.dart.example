@@ -1,0 +1,17 @@
+// Copy to firebase_options_netadmin.dart and fill in from Firebase Console.
+// Do not commit firebase_options_netadmin.dart (it is in .gitignore).
+
+import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
+
+class NetadminFirebaseOptions {
+  static const FirebaseOptions options = FirebaseOptions(
+    apiKey: 'YOUR_NETADMIN_API_KEY',
+    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+    databaseURL: 'https://YOUR_PROJECT_ID.firebaseio.com',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    appId: 'YOUR_APP_ID',
+    measurementId: 'G-XXXXXXXXXX',
+  );
+}
